@@ -1,111 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Sean Harkin</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/7ab2c81ea6.js"></script>
+   <title>Sean Harkin</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="" href="style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="https://use.fontawesome.com/7ab2c81ea6.js"></script>
 </head>
 <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span> 
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="CV_SeanHarkin.pdf" target="_blank">CV</a></li>
-            </ul>
-        </div>
-    </div>
+   <div class="container-fluid">
+       <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+       </div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+           <ul class="nav navbar-nav">
+               <li><a href="#about">About</a></li>
+               <li><a href="#work">Work Experience</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="docs/CV_SeanHarkin.pdf" target="_blank">CV</a></li>
+           </ul>
+       </div>
+   </div>
 </nav>
 
 <body>
-    <div class="container">
-        <a id="about" class="anchor"></a>
-        <div class="row">
-            <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3" id="profile">
-                <img class="img-circle" src="my_photo.jpg" width="150" height="150">
-            </div>
-            <div class="col-md-5">
-                <h3>Sean Harkin</h3>
-                <p>Hi, my name is Sean Harkin I am a recent Graduate of NUI Galway where I studyied Computer and Electronic
-                    Engineering
-                </p>
-            </div>
-        </div>
-        <a id="work" class="anchor"></a>
-        <div class="row" id="work">
-            <div class="col-md-8 col-md-offset-2">
-                <h2>Work Experience</h2>
-                <h3>Jan-2016 - Aug 2016 Web Devloper Intern Prometrics</h3>
-                <p>While at Prometrics I worked on STAR portals, these were web applications built for our clients to allow
-                    them to view and internpet there data in a easy to read format.
-                </p>
-                <strong>Main Taks</strong>
-                <ul>
-                    <li>​The devlopment of ​clean​ ​and​ ​reliable​ ​code​ ​using​ ​JavaScript​ ​and Angular framework</li>
-                    <li>Interpreting​ ​wireframe​ ​designs​ ​and​ ​implementing​ ​them​ ​in​ ​code using​ ​HTML,​ ​Twitter​ ​Bootstrap​
-                        ​and​ ​SASS​ </li>
-                    <li>Writing JSON configuration files for ​Highcharts​ JS</li>
-                    <li>​Writing​ ​SQL​ ​stored​ ​procedures​ ​to​ ​format​ ​and sort​ ​data​ ​from​ ​our​ ​database</li>
-                    <li>Writing​ ​and​ ​editing​ ​unit​ ​tests​ ​and​ ​test​ ​scripts
-                    </li>
-                    <li>Building​ ​and​ ​maintaining​ ​relational​ ​databases​ ​using​ ​the​ ​Entity Framework</li>
-                </ul>
-            </div>
-        </div>
-        <a id="projects" class="anchor"></a>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h2>Projects</h2>
-                <h3>Final Year Project</h3>
-                <h4>Partner Selection in Evoluiotary Computation</h4>
-                <p>The aim of this project is to explore the performance of partner selection algorithms in the field of evolutionary
-                    computation, with a particular focus on their use in Genetic algorithms. Several methods were tested
-                    for their ability to perform on a range of problem landscapes of varying difficulty, this also
-                    explored the effect of modifying partner selection methods and their impact on performance .</p>
-                <p>
-                    The project involved the devlopment of a genetic algorithm capable of using a number of different partner selection methods and testing them 
-                    on problem landscapes of varying difficulty. The program allowed me to quickly change the parametes of a test and gather and interpet the results
-                    of each expreiment. The program was written in C#
-                </p>
+   <div class="container">
+       <a id="about" class="anchor"></a>
+       <div class="row">
+           <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3" id="profile">
+               <img class="img-circle" src="my_photo.jpg" width="150" height="150">
+               <ul class="list-inline" id="icons">
+                   <li><a href="https://github.com/sharkin104"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+                   <li><a href="https://www.linkedin.com/in/sean-harkin-b56a47b3/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+                   <li><a href="sharkin104@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
+               </ul>
+           </div>
+           <div class="col-md-5">
+               <h3>Sean Harkin</h3>
+               <p>Hi, my name is Sean Harkin I am a recent Graduate of NUI Galway where I studied Computer and Electronic
+                   Engineering
+               </p>
+           </div>
+       </div>
+       <div class="row ">
+           <div class="col-md-8 col-md-offset-2">
+               <h2>Education</h2>
+                   <p>2013-2017​ ​:​ ​​​ ​Bachelor​ ​of​ ​Computer​ ​and​ ​Electronic​ ​Engineering,​ ​National​ ​University​ ​of​ ​Ireland Galway</p>
+                   <p>Final Grade: Second class Honours Grade 2</p>
+                   <p>2007​-2013:​ ​​​Leaving​ ​Certificate​ ​,​ ​Dunshaughlin​ ​Community​ ​College​,​ ​​Co​ ​Meath </p>
+                   <p>Final Grade: 450 points</p>
+           </div>
 
-                <p>The paper containing the results can be found <a href="docs/FYP-Paper.pdf">here</a></p>
-                <p>The Source code of the algorithm can be found <a href="https://github.com/sharkin104/FYP_GA">here</a></p>
+       </div>
+       <a id="work" class="anchor"></a>
+       <div class="row" id="work">
+           <div class="col-md-8 col-md-offset-2">
+               <h2>Work Experience</h2>
+               <h3>Jan-2016 - Aug 2016 Web Developer Intern Prometrics</h3>
+               <p>While at Prometrics I worked on STAR portals, these were web applications built for our clients to allow
+                   them to view and interpret their data in a easy to read format.
+               </p>
+               <strong>Main Tasks</strong>
+               <ul>
+                   <li>​The development of ​clean​ ​and​ ​reliable​ ​code​ ​using​ ​JavaScript​ ​and Angular framework</li>
+                   <li>Interpreting​ ​wireframe​ ​designs​ ​and​ ​implementing​ ​them​ ​in​ ​code using​ ​HTML,​ ​Twitter​ ​Bootstrap​
+                       ​and​ ​SASS​ </li>
+                   <li>Writing JSON configuration files for ​Highcharts​ JS</li>
+                   <li>​Writing​ ​SQL​ ​stored​ ​procedures​ ​to​ ​format​ ​and sort​ ​data​ ​from​ ​our​ ​database</li>
+                   <li>Writing​ ​and​ ​editing​ ​unit​ ​tests​ ​and​ ​test​ ​scripts
+                   </li>
+                   <li>Building​ ​and​ ​maintaining​ ​relational​ ​databases​ ​using​ ​the​ ​Entity Framework</li>
+               </ul>
+           </div>
+       </div>
+       <a id="projects" class="anchor"></a>
+       <div class="row">
+           <div class="col-md-8 col-md-offset-2">
+               <h2>Projects</h2>
+               <h3>Final Year Project</h3>
+               <h4>Partner Selection in Evolutionary Computation</h4>
+               <p>The aim of this project is to explore the performance of partner selection algorithms in the field of evolutionary
+                   computation, with a particular focus on their use in Genetic algorithms. Several methods were tested
+                   for their ability to perform on a range of problem landscapes of varying difficulty, this also explored
+                   the effect of modifying partner selection methods and their impact on performance .</p>
+               <p>
+                   The project involved the development of a genetic algorithm capable of using a number of different partner selection methods
+                   and testing them on problem landscapes of varying difficulty. The program allowed me to quickly change
+                   the parameters of a test and gather and interpret the results of each experiment. The program was written
+                   in C#
+               </p>
 
-                <h3>CSGOCranked.com</h3>
-                <h4>Currentley in devlopment</h4>
-                <p>This is a micro bidding app for in game skins in the game Counter Strike Global Offensive.This app is Currentley in devlopment,
-                    it is being built using Node JS, Angular 4 and Typescript, Bootstrap, CSS and Mongo DB. It uses socketio to allow for live auction updating 
-                    and bidding on the auctions. It also immplments a REST api for other tasks. 
-                </p>
-                <p>The code for this project can be viewed <a href="https://github.com/sharkin104/cs-app">here</a></p>
-            </div>
-        </div>
+               <p>The paper containing the results can be found <a href="docs/FYP-Paper">here</a></p>
+               <p>The Source code of the algorithm can be found <a href="https://github.com/sharkin104/FYP_GA">here</a></p>
 
+               <h3>CSGOCranked.com</h3>
+               <h4>Currently in development</h4>
+               <p>This is a micro bidding app for in game skins in the game Counter Strike Global Offensive.This app is Currently
+                   in development, it is being built using Node JS, Angular 4 and Typescript, Bootstrap, CSS and MongoDB.
+                   It uses Socket IO to allow for live auction updating and bidding on the auctions. It also implements a
+                   REST api for other tasks.
+               </p>
+               <p>The code for this project can be viewed <a href="https://github.com/sharkin104/cs-app">here</a></p>
 
+               <h3>Automated Arduino Guitar</h3>
+               <h4>Second Year Project</h4>
+               <p>Built​ ​a​ ​one string​ ​guitar​ ​using​ ​servo​ ​motors​ ​and​ ​an​ ​Arduino​ ​programmed​ ​in​ ​C​ ​it​
+                   ​was able​ ​to​ ​play​ ​simple​ ​song,​ ​the​ ​project​ ​was​ ​completed​ ​by​ ​a​ ​team​ ​of​ ​five.​
+                   ​It received​ ​10​ ​out​ ​of​ ​10.</p>
 
+               <p>A video of the device playing can be seen <a href="https://www.youtube.com/watch?v=nnDbuexGBrI&feature=youtu.be">here</a></p>
 
-        <footer class="footer">
-            <ul class="list-inline">
-                <li><i class="fa fa-github fa-2x" aria-hidden="true"></i></li>
-                <li><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></li>
-                <li><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></li>
-            </ul>
-        </footer>
-    <script src="main.js"></script>
+               <h3>Personal Website</h3>
+               <p>This website was built using HTML , Twitter Bootstrap and CSS the code can be
+                   viewed <a href="https://github.com/sharkin104/sharkin104.github.io">here</a>
+               </p>
+           </div>
+       </div>
 </body>
 
 </html>
+

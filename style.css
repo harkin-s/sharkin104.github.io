@@ -1,11 +1,4 @@
-.navbar-nav {
-    width: 100%;
-    text-align: center;
-}
-.navbar-nav li{
-    float: none;
-    display: inline-block;
-}
+
 #icons i {
     margin-right: 5%;
 }
