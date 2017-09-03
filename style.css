@@ -1,0 +1,26 @@
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav li{
+    float: none;
+    display: inline-block;
+}
+#icons i {
+    margin-right: 5%;
+}
+
+#icons {
+    margin-left: 9%;
+    margin-top: 10%;
+}
+body { 
+    padding-top: 70px; 
+}
+a.anchor{
+    display: block;
+    position: relative;
+    top: -30px;
+    visibility: hidden;
+    
+}
